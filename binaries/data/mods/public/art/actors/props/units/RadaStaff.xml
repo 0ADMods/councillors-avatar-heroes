@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+
+  <castshadow/>
+
+  <group>
+    <variant frequency="100" name="Base">
+      <mesh>props/RadaStaff.dae</mesh>
+      <props>
+        <prop actor="props/units/RadaCrystal.xml" attachpoint="StaffTip"/>
+        <prop actor="particle/sparks.xml" attachpoint="StaffTip"/>
+      </props>
+      <textures><texture file="structural/celt_struct_1.dds" name="baseTex"/></textures>
+    </variant>
+  </group>
+
+  <material>basic_trans.xml</material>
+
+</actor>
