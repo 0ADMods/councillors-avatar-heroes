@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="biped/base_healer_male.xml">
+      <mesh>skeletal/new/m_dress.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/head_hele_healer_2.xml" attachpoint="head"/>
+        <prop actor="props/units/capes/druid.xml" attachpoint="root"/>
+        <prop actor="props/units/heads/radagast.xml" attachpoint="helmet"/>
+        <prop actor="props/units/staff_radagast.xml" attachpoint="weapon_R"/>
+      </props>
+      <textures>
+        <texture file="skeletal/cloak_radagast.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/attack_slaughter.xml"/>
+    <variant file="biped/death_infantry.xml">
+      <props>
+        <prop actor="props/units/capes/druid.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>
