@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Radagast's hat">
-      <mesh>props/helmet/radagast.dae</mesh>
+      <mesh>props/helmet/hat_radagast.dae</mesh>
       <textures>
         <texture file="props/helmet/hat_radagast.png" name="baseTex"/>
       </textures>
