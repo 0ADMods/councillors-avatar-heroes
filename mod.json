@@ -1,0 +1,8 @@
+{
+	"name": "councillors-avatar-heroes",
+	"version": "1.0.0",
+	"label": "Councillors Avatar Heroes",
+	"url": "",
+	"description": "",
+	"dependencies": ["0ad=0.0.24"]
+}

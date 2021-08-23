@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_spearman">
+  <Identity>
+    <Civ>mercenary</Civ>
+    <Lang>greek</Lang>
+    <GenericName>Stan`</GenericName>
+    <SpecificName>Stan`</SpecificName>
+    <Icon>units/stan.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/mercenaries/stan.xml</Actor>
+  </VisualActor>
+</Entity>
